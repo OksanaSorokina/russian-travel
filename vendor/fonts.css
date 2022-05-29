@@ -19,9 +19,3 @@
     font-weight: 900;
 }
 
-@font-face {
-    font-family: "SuisseIntl";
-    src: url(../fonts/SuisseIntl/SuisseIntl-Regular.woff2) format("woff2"),
-      url(../fonts/SuisseIntl/SuisseIntl-Regular.woff) format("woff");
-    font-weight: 400;
-}
