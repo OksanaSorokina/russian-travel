@@ -1,0 +1,10 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /*Избавляемся от жестко заданной ширины контейнера*/ 
+  /*max-width: 1184px;*/
+  margin: auto;
+  justify-content: center;
+  
+}
