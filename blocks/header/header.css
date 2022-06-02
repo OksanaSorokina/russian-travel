@@ -4,9 +4,6 @@
     display: flex;
     justify-content: space-between;
     margin: 28px auto 0;
-    
-
-    border: 1px solid white;
 }
 
 @media screen and (max-width: 768px) {
