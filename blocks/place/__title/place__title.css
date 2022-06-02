@@ -1,10 +1,26 @@
 .plase__title {
     font-size: 72px;
     font-weight: 900;
-    line-height: 76px;
+    line-height: 1.05;
     margin: 0;
     grid-area: title;
     max-height: 152px;
 
     border: 1px solid blueviolet;
+}
+
+
+@media screen and (max-width: 768px) {
+    .plase__title {
+      font-size: 42px;
+      max-height: 92px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .plase__title {
+      font-size: 32px;
+      max-height: 35px;    
+      margin: 0 16px;
+    }
 }

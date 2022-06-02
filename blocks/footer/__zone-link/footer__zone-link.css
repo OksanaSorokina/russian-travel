@@ -2,3 +2,10 @@
     display: flex;
     flex-wrap: nowrap;
 }
+
+@media screen and (max-width: 320px) {
+    .footer__zone-link {   
+      flex-direction: column;
+      margin-bottom: 48px;
+    }
+}
