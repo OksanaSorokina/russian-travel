@@ -14,4 +14,4 @@
 
 ### Ссылка на проект
 
-* [Работа выложена на GitHub Pages](https://)
+* [Работа выложена на GitHub Pages](https://oksanasorokina.github.io/russian-travel/)
