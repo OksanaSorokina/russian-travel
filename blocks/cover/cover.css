@@ -22,7 +22,7 @@
     color: #FFFFFF;
 }
 
-/*Добавила затемнение на блок, но пока спрятала opacity: 0;*/
+/*Добавила затемнение на блок, но пока показываю частично opacity: 0.3;*/
 .cover::after {
     content: '';
     position: absolute;
@@ -30,29 +30,20 @@
     height: 100%;
     background: #2A2C2F;
     transition: opacity 0.5s ease;
-    opacity: 0;
-    z-index: 1;
+    opacity: 0.3;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 740px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
-/*затемнение появится при наведении на блок*/
+/*сильнее затемнение появится при наведении на блок*/
 .cover:hover::after {
     opacity: 0.8;
-}
-
-
-.cover::after {
-  background-color: #2A2C2F;
-  opacity: 0.3;
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-  background-repeat: no-repeat;
-  background-position: center;
-  max-height: 740px;
-  margin: auto;
-  position: absolute;
-  left: 0;
-  top: 0;
 }
 
 
